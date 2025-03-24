@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
-df = pd.read_excel(r"C:\Users\Pedro Lucas\Desktop\projeto_data\dados_escritorio.xlsx"r"")
+df = pd.read_excel("dados_escritorio.xlsx")
 
 coluna_adv = list(df['Advogado'])
 advogados = list(dict.fromkeys(coluna_adv))
