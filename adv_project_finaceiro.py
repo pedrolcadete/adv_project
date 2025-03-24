@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_excel(r"C:\Users\Pedro Lucas\Desktop\projeto_data\dados_escritorio.xlsx"r"")
+df = pd.read_excel("dados_escritorio.xlsx")
 df_cut = df[['Advogado', 'Status', 'Receita (R$)', 'Custo (R$)']]
 df_finc = df_cut.loc[df_cut['Status'] != 'Ativo']
 
